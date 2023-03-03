@@ -1,0 +1,28 @@
+/* Write your CSS code here. */
+.main-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card {
+  width: 60%;
+  height: 50%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emoji-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 75%;
+  padding: 10px;
+}
